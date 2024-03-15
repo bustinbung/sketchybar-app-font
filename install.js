@@ -31,7 +31,7 @@ export function install(replaceInScriptPath, refreshSketchybar = true) {
   } else {
     fs.copyFileSync(
       "./dist/icon_map.sh",
-      `${process.env.HOME}/.config/sketchybar/icon_map.sh`
+      `${process.env.HOME}/.config/sketchybar/plugins/icon_map.sh`
     );
   }
 
